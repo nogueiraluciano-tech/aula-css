@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevAcademy — Aprenda a Programar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVEGAÇÃO -->
+  <nav>
+    <span class="nav-logo">DevAcademy</span>
+    <ul class="nav-links">
+      <li><a href="#cursos">Cursos</a></li>
+      <li><a href="#depoimentos">Depoimentos</a></li>
+      <li><a href="#inscricao">Inscrição</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <span class="hero-badge">🚀 Turma 2025 aberta</span>
+    <h1>Domine o Futuro com Código</h1>
+    <p>Aprenda programação, design e tecnologia com mentores apaixonados por ensinar.</p>
+    <div class="hero-btns">
+      <button class="btn btn-primary">Ver Cursos</button>
+      <button class="btn btn-outline">Saiba Mais</button>
+    </div>
+  </section>
+
+  <!-- CURSOS -->
+  <section id="cursos">
+    <div class="secao">
+      <div class="secao-titulo fade-in">
+        <h2>Trilhas de Aprendizado</h2>
+        <p>Escolha seu caminho e comece a construir seu futuro hoje.</p>
+      </div>
+
+      <div class="grid-cursos">
+
+        <div class="card fade-in">
+          <span class="card-icone">🌐</span>
+          <h3>Desenvolvimento Web</h3>
+          <p>HTML, CSS e JavaScript do zero ao avançado. Crie sites incríveis com as tecnologias mais usadas do mercado.</p>
+          <span class="card-tag">Iniciante</span>
+        </div>
+
+        <div class="card fade-in">
+          <span class="card-icone">🤖</span>
+          <h3>Inteligência Artificial</h3>
+          <p>Entenda como funcionam os modelos de IA, aprendizado de máquina e redes neurais com Python.</p>
+          <span class="card-tag">Intermediário</span>
+        </div>
+
+        <div class="card fade-in">
+          <span class="card-icone">📱</span>
+          <h3>Apps Mobile</h3>
+          <p>Construa aplicativos para Android e iOS usando React Native. Publique seu app nas lojas.</p>
+          <span class="card-tag">Intermediário</span>
+        </div>
+
+        <div class="card fade-in">
+          <span class="card-icone">🛡️</span>
+          <h3>Cibersegurança</h3>
+          <p>Aprenda a proteger sistemas, identificar vulnerabilidades e trabalhar com segurança da informação.</p>
+          <span class="card-tag">Avançado</span>
+        </div>
+
+        <div class="card fade-in">
+          <span class="card-icone">🎮</span>
+          <h3>Desenvolvimento de Games</h3>
+          <p>Crie jogos 2D e 3D usando Unity e C#. Da ideia ao produto final em poucas semanas.</p>
+          <span class="card-tag">Todos os níveis</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos" class="secao-depoimentos">
+    <div class="secao">
+      <div class="secao-titulo fade-in">
+        <h2>O que dizem nossos alunos</h2>
+        <p>Histórias reais de quem transformou sua carreira com a DevAcademy.</p>
+      </div>
+
+      <div class="grid-depoimentos">
+
+        <div class="depoimento fade-in">
+          <p>Em 6 meses aprendi mais aqui do que em anos tentando sozinho. A didática é incrível e os projetos práticos fazem toda a diferença.</p>
+          <div class="depoimento-autor">
+            <div class="avatar">LM</div>
+            <span><strong>Lucas Mendes</strong> Desenvolvedor Front-end</span>
+          </div>
+        </div>
+
+        <div class="depoimento fade-in">
+          <p>Comecei sem saber nada de programação. Hoje trabalho como desenvolvedora júnior em uma startup. A DevAcademy mudou minha vida!</p>
+          <div class="depoimento-autor">
+            <div class="avatar">AS</div>
+            <span><strong>Ana Silva</strong> Desenvolvedora Full-stack</span>
+          </div>
+        </div>
+
+        <div class="depoimento fade-in">
+          <p>Os mentores são atenciosos e o conteúdo é sempre atualizado. Aprendi tecnologias que realmente usam no mercado.</p>
+          <div class="depoimento-autor">
+            <div class="avatar">RC</div>
+            <span><strong>Rafael Costa</strong> Engenheiro de Software</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULÁRIO DE INSCRIÇÃO -->
+  <section id="inscricao" class="secao-form">
+    <div class="secao-titulo fade-in">
+      <h2>Garanta sua Vaga</h2>
+      <p>Turmas com vagas limitadas. Inscreva-se e comece agora.</p>
+    </div>
+
+    <ul class="lista-beneficios fade-in">
+      <li>Acesso vitalício ao conteúdo</li>
+      <li>Projetos práticos reais</li>
+      <li>Certificado reconhecido</li>
+      <li>Mentoria ao vivo</li>
+      <li>Comunidade exclusiva</li>
+      <li>Suporte 24/7</li>
+    </ul>
+
+    <div class="form-wrapper fade-in">
+      <form>
+        <div class="form-group">
+          <label for="nome">Seu nome completo</label>
+          <input type="text" id="nome" placeholder="Ex: Maria Oliveira" />
+        </div>
+        <div class="form-group">
+          <label for="email">Seu melhor e-mail</label>
+          <input type="email" id="email" placeholder="maria@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="trilha">Trilha de interesse</label>
+          <select id="trilha">
+            <option value="">Selecione uma trilha...</option>
+            <option>Desenvolvimento Web</option>
+            <option>Inteligência Artificial</option>
+            <option>Apps Mobile</option>
+            <option>Cibersegurança</option>
+            <option>Desenvolvimento de Games</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-form">Quero me Inscrever 🚀</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 DevAcademy · Feito com 💙 para quem ama tecnologia</p>
+  </footer>
+
+  <script>
+    // Animação de scroll simples
+    const elementos = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visivel');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    elementos.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
